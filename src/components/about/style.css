@@ -1,0 +1,16 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+.about-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.about-text {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  color: #dcdcdc;
+}

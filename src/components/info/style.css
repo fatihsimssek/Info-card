@@ -1,0 +1,99 @@
+.card-container {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.email-link {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title-image {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card-image {
+  margin-bottom: 10px;
+  border-radius: 10px 10px 0 0;
+}
+.card-title {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.card-subtitle {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  color: #f3bf99;
+}
+.card-subtitle1 {
+  margin-top: 10px;
+  font-size: 10px;
+  line-height: 15px;
+  color: #f5f5f5;
+  font-weight: 400;
+}
+.email-button {
+  font-family: "Inter", sans-serif;
+  width: 115px;
+  height: 34px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  border: 1px solid #fff;
+}
+
+.email-button a {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #374151;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+}
+.email-button a > img {
+  width: 16px;
+  height: 16px;
+}
+
+.linkedin-button {
+  font-family: "Inter", sans-serif;
+  width: 115px;
+  height: 34px;
+  background-color: #5093e2;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  border: 1px solid #5093e2;
+}
+
+.linkedin-button a {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+}
+.linkedin-button a > img {
+  width: 16px;
+  height: 16px;
+}
